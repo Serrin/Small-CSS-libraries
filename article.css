@@ -1,0 +1,165 @@
+
+/**
+ * article.css
+ * Basic responsive style for simple pages.
+ *
+ * @version 1.0.0
+ * @author Ferenc Czigler <serrin@t-email.hu>
+ * @see https://github.com/Serrin/
+ *
+ * <link href="article.min.css" rel="stylesheet" type="text/css">
+ */
+
+/*
+
+Properties:
+1. No CSS classes, only new and modified HTML tags.
+2. No JS.
+3. Responsive design.
+
+*/
+
+/*
+
+<main></main>
+<section></section>
+<article></article>
+<div></div>
+<span></span>
+<p></p>
+<br />
+
+<img />
+
+<h1><h1> ... <h6></h6>
+<a></a>
+<b></b> and <strong></strong>
+<i></i>
+<q>quote</q>
+<s></s>
+<u></u>
+<sub></sub>
+<sup></sup>
+<del></del>
+<ins></ins>
+<mark></mark>
+
+<em>Emphasized text</em>
+<strong>Strong text</strong>
+<code>A piece of computer code</code>
+<samp>Sample output from a computer program</samp>
+<kbd>Keyboard input</kbd>
+<var>Variable</var>
+
+<ul></ul> + <li></li> (Unordered list)
+<ol></ol> + <li></li> (Ordered list)
+<ol type="1"></ol> + <li></li> (Ordered list)
+<ol type="A"></ol> + <li></li> (Ordered list) - ABC
+<ol type="a"></ol> + <li></li> (Ordered list) - abc
+<ol type="I"></ol> + <li></li> (Ordered list) - Roman (I V X)
+<ol type="i"></ol> + <li></li> (Ordered list) - Roman (i v x)
+<ol start="50"></ol> + <li></li>
+
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	background-color: #fff;
+	color: #333;
+}
+
+a, a:active, a:visited {
+	color: darkblue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darkblue;
+	text-decoration: underline;
+}
+
+section {
+	display: block;
+	text-align:	center;
+}
+
+article {
+	display: inline-block;
+	width: 80%;
+	max-width: 950px;
+	padding: 15px;
+}
+
+p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+pre {
+	font-family: "Lucida Console", Monaco, monospace;
+	white-space: pre-wrap;
+	background-color: #d5d5d5;
+	padding: 15px;
+}
+
+code {
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color: #d5d5d5;
+	display: inline-block;
+	padding: 5px;
+}
+
+li {
+	padding-right: 15px;
+}
+
+block {
+	display: block;
+	padding: 5px 0px;
+}
+
+aleft { display: block; text-align: left; }
+aright { display: block; text-align: right; }
+acenter { display: block; text-align: center; }
+ajustify { display: block; text-align: justify; }
+
+font-helvetica { font-family: Helvetica, Arial, sans-serif; }
+font-code { font-family: "Lucida Console", Monaco, monospace; }
+font-palatino { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+font-roman { font-family: "Times New Roman", Times, serif; }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+thumbnail-500 {
+	display: inline-block;
+	max-width: 500px;
+	height: auto;
+}
+
+thumbnail-170 {
+	display: inline-block;
+	max-width: 170px;
+	height: auto;
+}
+
+@media(max-width: 950px) {
+	article { width: 100%; padding: 0px; }
+}
