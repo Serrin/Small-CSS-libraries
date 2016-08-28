@@ -8,12 +8,9 @@ Background and text colors collection with predefined classes.
 - Text color classname format: .color-colorname
 
 ###Files:
-- article.css
-- article.min.css
-- article.html
-- article-demo.html
-- fox.png (used in the demo page)
-- nasa1-1920.jpg (used in the demo page)
+- colors.css
+- colors.min.css
+- colors.html
 
 ##article.css
 Basic responsive style for simple pages.
@@ -24,6 +21,9 @@ Basic responsive style for simple pages.
 - Responsive design.
 
 ###Files:
-- colors.css
-- colors.min.css
-- colors.html
+- article.css
+- article.min.css
+- article.html
+- article-demo.html
+- fox.png (used in the demo page)
+- nasa1-1920.jpg (used in the demo page)
