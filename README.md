@@ -1,5 +1,9 @@
 # Small-CSS-libraries
 
+##How to clone
+
+$ git clone https://github.com/Serrin/Small-CSS-libraries/
+
 ##colors.css
 Background and text colors collection with predefined classes.
 
