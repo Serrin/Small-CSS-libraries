@@ -20,7 +20,7 @@ Background and text colors collection with predefined classes.
 Basic responsive style for simple pages.
 
 ###Properties:
-- No CSS classes, only new and modified HTML tags.
+- No CSS classes, only new and modified HTML tags and tag attributes.
 - No JS.
 - Responsive design.
 
