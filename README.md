@@ -1,33 +1,21 @@
 # Small-CSS-libraries
 
-##How to clone
+## How to clone
 
 $ git clone https://github.com/Serrin/Small-CSS-libraries/
 
-##colors.css
+## colors.css
 Background and text colors collection with predefined classes.
 
-###Formats:
+### Formats:
 - Background color classname format: .bg-colorname
 - Text color classname format: .color-colorname
 
-###Files:
+### Files:
 - colors.css
 - colors.min.css
 - colors.html
 
-##article.css
-Basic responsive style for simple pages.
+## License:
 
-###Properties:
-- No CSS classes, only new and modified HTML tags and tag attributes.
-- No JS.
-- Responsive design.
-
-###Files:
-- article.css
-- article.min.css
-- article.html
-- article-demo.html
-- fox.png (used in the demo page)
-- nasa1-1920.jpg (used in the demo page)
+MIT
