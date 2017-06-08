@@ -19,7 +19,7 @@ Background and text colors collection with predefined classes.
 ## material-colors.css
 Material colors full palette.
 
-###Files:
+### Files:
 - material-colors.css
 - material-colors.min.css
 - material-colors.html
