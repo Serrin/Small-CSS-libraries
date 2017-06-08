@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>material-colors.css</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- shrink-to-fit=no - IOS9+ bug fix -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="keywords" content="material-colors.css" />
+  <meta name="description" content="material-colors.css" />
+  <meta name="author" content="Ferenc Czigler" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="material-gridster.css" type="text/css" />
+  <link rel="stylesheet" href="material-gridster-theme.css" type="text/css" />
+  <link rel="stylesheet" href="material-colors.min.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" />
+  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+  <style>
+    
+  </style>
+  <script>
+    /** minquery.js v1.3.0 * https://github.com/Serrin/minquery.js/ */
+    function $(s,c){if(c){var ic=(typeof c==="string") ? document.querySelector(c) : c;}var el=[].slice.call((ic || document).querySelectorAll(s));el.each=el.forEach;return el;} 
+    function $1(s,c){if(c){var ic=(typeof c==="string") ? document.querySelector(c) : c;}return(ic || document).querySelector(s);} 
+    function $$(fn){if(document.readyState!='loading'){fn();}else{document.addEventListener("DOMContentLoaded",function(event){fn();});}}
+    function $A(o){return [].slice.call(o);}
+    if(!Array.from){Array.from=function(o){return [].slice.call(o);};}
+    if(!Array.of){Array.of=function(){return [].slice.call(arguments);};}
+    if(!Object.create){Object.create=function(o){function F(){} F.prototype=o;return new F();};}
+    function inherit(c,p){c.prototype=Object.create(p.prototype);c.prototype.constructor=c;return c;}    
+  </script>
+</head>
+
+<body class="mtrl-white font-roboto">
+
+<header class="container-fluid">
+  <div class="header font-lobster mtrl-black bg-cover vh-25" style="background-image: url('material-colors.jpg');">
+    <h1 class="center">material-colors.css</h1>
+  </div>
+</header>
+
+<main class="container">
+  <article class="row eee">
+    <div class="col-fluid center">
+      <span class="bigbutton success">
+        <a href="material-colors.min.css" class="text-white" target="_blank">download</a>
+      </span>
+      <p class="font-s">Version: 1.0.0</p>
+      <p class="font-s"><a href="material-colors.css" target="_blank">Development version</a></p>
+    </div>
+    <div class="col-fluid font-s">
+      <div class="row">
+         <div class="col-1">
+          <div class="padding mtrl-black">mtrl-black</div>
+          <div class="padding mtrl-white">mtrl-white</div>
+          <p class="font-m justify">The primary opacity is the default in the palette. If you use the <code>secondary</code>, <code>disabled</code>, <code>hint</code> and <code>dividers</code> opacity properties, then please use predefined classes!</p>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-black">mtrl-black
+            <p class="mtrl-text-light-primary">mtrl-text-light-primary (opacity: 1.0)</p>
+          </div>
+          <div class="padding mtrl-black">mtrl-black  
+            <p class="mtrl-text-light-secondary">mtrl-text-light-secondary (opacity: 0.7)</p>
+          </div>
+          <div class="padding mtrl-black">mtrl-black
+            <p class="mtrl-text-light-disabled">mtrl-text-light-disabled (opacity: 0.5)</p>
+          </div>
+          <div class="padding mtrl-black">mtrl-black
+            <p class="mtrl-text-light-hint">mtrl-text-light-hint (opacity: 0.5)</p>
+          </div>
+          <div class="padding mtrl-black">mtrl-black
+            <p class="mtrl-text-light-dividers">mtrl-text-light-dividers (opacity: 0.12)</p> 
+          </div>  
+          <div class="padding mtrl-white">mtrl-white
+            <p class="mtrl-text-dark-primary">mtrl-text-dark-primary (opacity: 0.87)</p>
+          </div>
+          <div class="padding mtrl-white">mtrl-white
+            <p class="mtrl-text-dark-secondary">mtrl-text-dark-secondary (opacity: 0.54)</p>
+          </div>
+          <div class="padding mtrl-white">mtrl-white
+            <p class="mtrl-text-dark-disabled">mtrl-text-dark-disabled (opacity: 0.38)</p>
+          </div>
+          <div class="padding mtrl-white">mtrl-white
+            <p class="mtrl-text-dark-hint">mtrl-text-dark-hint (opacity: 0.38)</p>
+          </div>
+          <div class="padding mtrl-white">mtrl-white
+            <p class="mtrl-text-dark-dividers">mtrl-text-dark-dividers (opacity: 0.12)</p>        
+          </div>
+        </div> 
+        <div class="col-1">
+          <div class="padding mtrl-black">mtrl-black
+            <p class="mtrl-opacity-light-primary">mtrl-opacity-light-primary (opacity: 1.0)</p>
+          </div>
+          <div class="padding mtrl-black">mtrl-black  
+            <p class="mtrl-opacity-light-secondary">mtrl-opacity-light-secondary (opacity: 0.7)</p>
+          </div>
+          <div class="padding mtrl-black">mtrl-black
+            <p class="mtrl-opacity-light-disabled">mtrl-opacity-light-disabled (opacity: 0.5)</p>
+          </div>
+          <div class="padding mtrl-black">mtrl-black
+            <p class="mtrl-opacity-light-hint">mtrl-opacity-light-hint (opacity: 0.5)</p>
+          </div>
+          <div class="padding mtrl-black">mtrl-black
+            <p class="mtrl-opacity-light-dividers">mtrl-opacity-light-dividers (opacity: 0.12)</p> 
+          </div>  
+          <div class="padding mtrl-white">mtrl-white
+            <p class="mtrl-opacity-dark-primary">mtrl-opacity-dark-primary (opacity: 0.87)</p>
+          </div>
+          <div class="padding mtrl-white">mtrl-white
+            <p class="mtrl-opacity-dark-secondary">mtrl-opacity-dark-secondary (opacity: 0.54)</p>
+          </div>
+          <div class="padding mtrl-white">mtrl-white
+            <p class="mtrl-opacity-dark-disabled">mtrl-opacity-dark-disabled (opacity: 0.38)</p>
+          </div>
+          <div class="padding mtrl-white">mtrl-white
+            <p class="mtrl-opacity-dark-hint">mtrl-opacity-dark-hint (opacity: 0.38)</p>
+          </div>
+          <div class="padding mtrl-white">mtrl-white
+            <p class="mtrl-opacity-dark-dividers">mtrl-opacity-dark-dividers (opacity: 0.12)</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <div class="padding mtrl-red">mtrl-red (500)</div>
+          <div class="padding mtrl-red-50">mtrl-red-50</div>
+          <div class="padding mtrl-red-100">mtrl-red-100</div>
+          <div class="padding mtrl-red-200">mtrl-red-200</div>
+          <div class="padding mtrl-red-300">mtrl-red-300</div>
+          <div class="padding mtrl-red-400">mtrl-red-400</div>
+          <div class="padding mtrl-red-500">mtrl-red-500</div>
+          <div class="padding mtrl-red-600">mtrl-red-600</div>
+          <div class="padding mtrl-red-700">mtrl-red-700</div>
+          <div class="padding mtrl-red-800">mtrl-red-800</div>
+          <div class="padding mtrl-red-900">mtrl-red-900</div>
+          <div class="padding mtrl-red-A100">mtrl-red-A100</div>
+          <div class="padding mtrl-red-A200">mtrl-red-A200</div>
+          <div class="padding mtrl-red-A400">mtrl-red-A400</div>
+          <div class="padding mtrl-red-A700">mtrl-red-A700</div>
+        </div>   
+        <div class="col-1">
+          <div class="padding mtrl-pink">mtrl-pink (500)</div>
+          <div class="padding mtrl-pink-50">mtrl-pink-50</div>
+          <div class="padding mtrl-pink-100">mtrl-pink-100</div>
+          <div class="padding mtrl-pink-200">mtrl-pink-200</div>
+          <div class="padding mtrl-pink-300">mtrl-pink-300</div>
+          <div class="padding mtrl-pink-400">mtrl-pink-400</div>
+          <div class="padding mtrl-pink-500">mtrl-pink-500</div>
+          <div class="padding mtrl-pink-600">mtrl-pink-600</div>
+          <div class="padding mtrl-pink-700">mtrl-pink-700</div>
+          <div class="padding mtrl-pink-800">mtrl-pink-800</div>
+          <div class="padding mtrl-pink-900">mtrl-pink-900</div>
+          <div class="padding mtrl-pink-A100">mtrl-pink-A100</div>
+          <div class="padding mtrl-pink-A200">mtrl-pink-A200</div>
+          <div class="padding mtrl-pink-A400">mtrl-pink-A400</div>
+          <div class="padding mtrl-pink-A700">mtrl-pink-A700</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-purple">mtrl-purple (500)</div>
+          <div class="padding mtrl-purple-50">mtrl-purple-50</div>
+          <div class="padding mtrl-purple-100">mtrl-purple-100</div>
+          <div class="padding mtrl-purple-200">mtrl-purple-200</div>
+          <div class="padding mtrl-purple-300">mtrl-purple-300</div>
+          <div class="padding mtrl-purple-400">mtrl-purple-400</div>
+          <div class="padding mtrl-purple-500">mtrl-purple-500</div>
+          <div class="padding mtrl-purple-600">mtrl-purple-600</div>
+          <div class="padding mtrl-purple-700">mtrl-purple-700</div>
+          <div class="padding mtrl-purple-800">mtrl-purple-800</div>
+          <div class="padding mtrl-purple-900">mtrl-purple-900</div>
+          <div class="padding mtrl-purple-A100">mtrl-purple-A100</div>
+          <div class="padding mtrl-purple-A200">mtrl-purple-A200</div>
+          <div class="padding mtrl-purple-A400">mtrl-purple-A400</div>
+          <div class="padding mtrl-purple-A700">mtrl-purple-A700</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <div class="padding mtrl-deep-purple">mtrl-deep-purple (500)</div>
+          <div class="padding mtrl-deep-purple-50">mtrl-deep-purple-50</div>
+          <div class="padding mtrl-deep-purple-100">mtrl-deep-purple-100</div>
+          <div class="padding mtrl-deep-purple-200">mtrl-deep-purple-200</div>
+          <div class="padding mtrl-deep-purple-300">mtrl-deep-purple-300</div>
+          <div class="padding mtrl-deep-purple-400">mtrl-deep-purple-400</div>
+          <div class="padding mtrl-deep-purple-500">mtrl-deep-purple-500</div>
+          <div class="padding mtrl-deep-purple-600">mtrl-deep-purple-600</div>
+          <div class="padding mtrl-deep-purple-700">mtrl-deep-purple-700</div>
+          <div class="padding mtrl-deep-purple-800">mtrl-deep-purple-800</div>
+          <div class="padding mtrl-deep-purple-900">mtrl-deep-purple-900</div>
+          <div class="padding mtrl-deep-purple-A100">mtrl-deep-purple-A100</div>
+          <div class="padding mtrl-deep-purple-A200">mtrl-deep-purple-A200</div>
+          <div class="padding mtrl-deep-purple-A400">mtrl-deep-purple-A400</div>
+          <div class="padding mtrl-deep-purple-A700">mtrl-deep-purple-A700</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-indigo">mtrl-indigo (500)</div>
+          <div class="padding mtrl-indigo-50">mtrl-indigo-50</div>
+          <div class="padding mtrl-indigo-100">mtrl-indigo-100</div>
+          <div class="padding mtrl-indigo-200">mtrl-indigo-200</div>
+          <div class="padding mtrl-indigo-300">mtrl-indigo-300</div>
+          <div class="padding mtrl-indigo-400">mtrl-indigo-400</div>
+          <div class="padding mtrl-indigo-500">mtrl-indigo-500</div>
+          <div class="padding mtrl-indigo-600">mtrl-indigo-600</div>
+          <div class="padding mtrl-indigo-700">mtrl-indigo-700</div>
+          <div class="padding mtrl-indigo-800">mtrl-indigo-800</div>
+          <div class="padding mtrl-indigo-900">mtrl-indigo-900</div>
+          <div class="padding mtrl-indigo-A100">mtrl-indigo-A100</div>
+          <div class="padding mtrl-indigo-A200">mtrl-indigo-A200</div>
+          <div class="padding mtrl-indigo-A400">mtrl-indigo-A400</div>
+          <div class="padding mtrl-indigo-A700">mtrl-indigo-A700</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-blue">mtrl-blue (500)</div>
+          <div class="padding mtrl-blue-50">mtrl-blue-50</div>
+          <div class="padding mtrl-blue-100">mtrl-blue-100</div>
+          <div class="padding mtrl-blue-200">mtrl-blue-200</div>
+          <div class="padding mtrl-blue-300">mtrl-blue-300</div>
+          <div class="padding mtrl-blue-400">mtrl-blue-400</div>
+          <div class="padding mtrl-blue-500">mtrl-blue-500</div>
+          <div class="padding mtrl-blue-600">mtrl-blue-600</div>
+          <div class="padding mtrl-blue-700">mtrl-blue-700</div>
+          <div class="padding mtrl-blue-800">mtrl-blue-800</div>
+          <div class="padding mtrl-blue-900">mtrl-blue-900</div>
+          <div class="padding mtrl-blue-A100">mtrl-blue-A100</div>
+          <div class="padding mtrl-blue-A200">mtrl-blue-A200</div>
+          <div class="padding mtrl-blue-A400">mtrl-blue-A400</div>
+          <div class="padding mtrl-blue-A700">mtrl-blue-A700</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <div class="padding mtrl-light-blue">mtrl-light-blue (500)</div>
+          <div class="padding mtrl-light-blue-50">mtrl-light-blue-50</div>
+          <div class="padding mtrl-light-blue-100">mtrl-light-blue-100</div>
+          <div class="padding mtrl-light-blue-200">mtrl-light-blue-200</div>
+          <div class="padding mtrl-light-blue-300">mtrl-light-blue-300</div>
+          <div class="padding mtrl-light-blue-400">mtrl-light-blue-400</div>
+          <div class="padding mtrl-light-blue-500">mtrl-light-blue-500</div>
+          <div class="padding mtrl-light-blue-600">mtrl-light-blue-600</div>
+          <div class="padding mtrl-light-blue-700">mtrl-light-blue-700</div>
+          <div class="padding mtrl-light-blue-800">mtrl-light-blue-800</div>
+          <div class="padding mtrl-light-blue-900">mtrl-light-blue-900</div>
+          <div class="padding mtrl-light-blue-A100">mtrl-light-blue-A100</div>
+          <div class="padding mtrl-light-blue-A200">mtrl-light-blue-A200</div>
+          <div class="padding mtrl-light-blue-A400">mtrl-light-blue-A400</div>
+          <div class="padding mtrl-light-blue-A700">mtrl-light-blue-A700</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-cyan">mtrl-cyan (500)</div>
+          <div class="padding mtrl-cyan-50">mtrl-cyan-50</div>
+          <div class="padding mtrl-cyan-100">mtrl-cyan-100</div>
+          <div class="padding mtrl-cyan-200">mtrl-cyan-200</div>
+          <div class="padding mtrl-cyan-300">mtrl-cyan-300</div>
+          <div class="padding mtrl-cyan-400">mtrl-cyan-400</div>
+          <div class="padding mtrl-cyan-500">mtrl-cyan-500</div>
+          <div class="padding mtrl-cyan-600">mtrl-cyan-600</div>
+          <div class="padding mtrl-cyan-700">mtrl-cyan-700</div>
+          <div class="padding mtrl-cyan-800">mtrl-cyan-800</div>
+          <div class="padding mtrl-cyan-900">mtrl-cyan-900</div>
+          <div class="padding mtrl-cyan-A100">mtrl-cyan-A100</div>
+          <div class="padding mtrl-cyan-A200">mtrl-cyan-A200</div>
+          <div class="padding mtrl-cyan-A400">mtrl-cyan-A400</div>
+          <div class="padding mtrl-cyan-A700">mtrl-cyan-A700</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-teal">mtrl-teal (500)</div>
+          <div class="padding mtrl-teal-50">mtrl-teal-50</div>
+          <div class="padding mtrl-teal-100">mtrl-teal-100</div>
+          <div class="padding mtrl-teal-200">mtrl-teal-200</div>
+          <div class="padding mtrl-teal-300">mtrl-teal-300</div>
+          <div class="padding mtrl-teal-400">mtrl-teal-400</div>
+          <div class="padding mtrl-teal-500">mtrl-teal-500</div>
+          <div class="padding mtrl-teal-600">mtrl-teal-600</div>
+          <div class="padding mtrl-teal-700">mtrl-teal-700</div>
+          <div class="padding mtrl-teal-800">mtrl-teal-800</div>
+          <div class="padding mtrl-teal-900">mtrl-teal-900</div>
+          <div class="padding mtrl-teal-A100">mtrl-teal-A100</div>
+          <div class="padding mtrl-teal-A200">mtrl-teal-A200</div>
+          <div class="padding mtrl-teal-A400">mtrl-teal-A400</div>
+          <div class="padding mtrl-teal-A700">mtrl-teal-A700</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <div class="padding mtrl-green">mtrl-green (500)</div>
+          <div class="padding mtrl-green-50">mtrl-green-50</div>
+          <div class="padding mtrl-green-100">mtrl-green-100</div>
+          <div class="padding mtrl-green-200">mtrl-green-200</div>
+          <div class="padding mtrl-green-300">mtrl-green-300</div>
+          <div class="padding mtrl-green-400">mtrl-green-400</div>
+          <div class="padding mtrl-green-500">mtrl-green-500</div>
+          <div class="padding mtrl-green-600">mtrl-green-600</div>
+          <div class="padding mtrl-green-700">mtrl-green-700</div>
+          <div class="padding mtrl-green-800">mtrl-green-800</div>
+          <div class="padding mtrl-green-900">mtrl-green-900</div>
+          <div class="padding mtrl-green-A100">mtrl-green-A100</div>
+          <div class="padding mtrl-green-A200">mtrl-green-A200</div>
+          <div class="padding mtrl-green-A400">mtrl-green-A400</div>
+          <div class="padding mtrl-green-A700">mtrl-green-A700</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-light-green">mtrl-light-green (500)</div>
+          <div class="padding mtrl-light-green-50">mtrl-light-green-50</div>
+          <div class="padding mtrl-light-green-100">mtrl-light-green-100</div>
+          <div class="padding mtrl-light-green-200">mtrl-light-green-200</div>
+          <div class="padding mtrl-light-green-300">mtrl-light-green-300</div>
+          <div class="padding mtrl-light-green-400">mtrl-light-green-400</div>
+          <div class="padding mtrl-light-green-500">mtrl-light-green-500</div>
+          <div class="padding mtrl-light-green-600">mtrl-light-green-600</div>
+          <div class="padding mtrl-light-green-700">mtrl-light-green-700</div>
+          <div class="padding mtrl-light-green-800">mtrl-light-green-800</div>
+          <div class="padding mtrl-light-green-900">mtrl-light-green-900</div>
+          <div class="padding mtrl-light-green-A100">mtrl-light-green-A100</div>
+          <div class="padding mtrl-light-green-A200">mtrl-light-green-A200</div>
+          <div class="padding mtrl-light-green-A400">mtrl-light-green-A400</div>
+          <div class="padding mtrl-light-green-A700">mtrl-light-green-A700</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-lime">mtrl-lime (500)</div>
+          <div class="padding mtrl-lime-50">mtrl-lime-50</div>
+          <div class="padding mtrl-lime-100">mtrl-lime-100</div>
+          <div class="padding mtrl-lime-200">mtrl-lime-200</div>
+          <div class="padding mtrl-lime-300">mtrl-lime-300</div>
+          <div class="padding mtrl-lime-400">mtrl-lime-400</div>
+          <div class="padding mtrl-lime-500">mtrl-lime-500</div>
+          <div class="padding mtrl-lime-600">mtrl-lime-600</div>
+          <div class="padding mtrl-lime-700">mtrl-lime-700</div>
+          <div class="padding mtrl-lime-800">mtrl-lime-800</div>
+          <div class="padding mtrl-lime-900">mtrl-lime-900</div>
+          <div class="padding mtrl-lime-A100">mtrl-lime-A100</div>
+          <div class="padding mtrl-lime-A200">mtrl-lime-A200</div>
+          <div class="padding mtrl-lime-A400">mtrl-lime-A400</div>
+          <div class="padding mtrl-lime-A700">mtrl-lime-A700</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <div class="padding mtrl-yellow">mtrl-yellow (500)</div>
+          <div class="padding mtrl-yellow-50">mtrl-yellow-50</div>
+          <div class="padding mtrl-yellow-100">mtrl-yellow-100</div>
+          <div class="padding mtrl-yellow-200">mtrl-yellow-200</div>
+          <div class="padding mtrl-yellow-300">mtrl-yellow-300</div>
+          <div class="padding mtrl-yellow-400">mtrl-yellow-400</div>
+          <div class="padding mtrl-yellow-500">mtrl-yellow-500</div>
+          <div class="padding mtrl-yellow-600">mtrl-yellow-600</div>
+          <div class="padding mtrl-yellow-700">mtrl-yellow-700</div>
+          <div class="padding mtrl-yellow-800">mtrl-yellow-800</div>
+          <div class="padding mtrl-yellow-900">mtrl-yellow-900</div>
+          <div class="padding mtrl-yellow-A100">mtrl-yellow-A100</div>
+          <div class="padding mtrl-yellow-A200">mtrl-yellow-A200</div>
+          <div class="padding mtrl-yellow-A400">mtrl-yellow-A400</div>
+          <div class="padding mtrl-yellow-A700">mtrl-yellow-A700</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-amber">mtrl-amber (500)</div>
+          <div class="padding mtrl-amber-50">mtrl-amber-50</div>
+          <div class="padding mtrl-amber-100">mtrl-amber-100</div>
+          <div class="padding mtrl-amber-200">mtrl-amber-200</div>
+          <div class="padding mtrl-amber-300">mtrl-amber-300</div>
+          <div class="padding mtrl-amber-400">mtrl-amber-400</div>
+          <div class="padding mtrl-amber-500">mtrl-amber-500</div>
+          <div class="padding mtrl-amber-600">mtrl-amber-600</div>
+          <div class="padding mtrl-amber-700">mtrl-amber-700</div>
+          <div class="padding mtrl-amber-800">mtrl-amber-800</div>
+          <div class="padding mtrl-amber-900">mtrl-amber-900</div>
+          <div class="padding mtrl-amber-A100">mtrl-amber-A100</div>
+          <div class="padding mtrl-amber-A200">mtrl-amber-A200</div>
+          <div class="padding mtrl-amber-A400">mtrl-amber-A400</div>
+          <div class="padding mtrl-amber-A700">mtrl-amber-A700</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-orange">mtrl-orange (500)</div>
+          <div class="padding mtrl-orange-50">mtrl-orange-50</div>
+          <div class="padding mtrl-orange-100">mtrl-orange-100</div>
+          <div class="padding mtrl-orange-200">mtrl-orange-200</div>
+          <div class="padding mtrl-orange-300">mtrl-orange-300</div>
+          <div class="padding mtrl-orange-400">mtrl-orange-400</div>
+          <div class="padding mtrl-orange-500">mtrl-orange-500</div>
+          <div class="padding mtrl-orange-600">mtrl-orange-600</div>
+          <div class="padding mtrl-orange-700">mtrl-orange-700</div>
+          <div class="padding mtrl-orange-800">mtrl-orange-800</div>
+          <div class="padding mtrl-orange-900">mtrl-orange-900</div>
+          <div class="padding mtrl-orange-A100">mtrl-orange-A100</div>
+          <div class="padding mtrl-orange-A200">mtrl-orange-A200</div>
+          <div class="padding mtrl-orange-A400">mtrl-orange-A400</div>
+          <div class="padding mtrl-orange-A700">mtrl-orange-A700</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <div class="padding mtrl-deep-orange">mtrl-deep-orange (500)</div>
+          <div class="padding mtrl-deep-orange-50">mtrl-deep-orange-50</div>
+          <div class="padding mtrl-deep-orange-100">mtrl-deep-orange-100</div>
+          <div class="padding mtrl-deep-orange-200">mtrl-deep-orange-200</div>
+          <div class="padding mtrl-deep-orange-300">mtrl-deep-orange-300</div>
+          <div class="padding mtrl-deep-orange-400">mtrl-deep-orange-400</div>
+          <div class="padding mtrl-deep-orange-500">mtrl-deep-orange-500</div>
+          <div class="padding mtrl-deep-orange-600">mtrl-deep-orange-600</div>
+          <div class="padding mtrl-deep-orange-700">mtrl-deep-orange-700</div>
+          <div class="padding mtrl-deep-orange-800">mtrl-deep-orange-800</div>
+          <div class="padding mtrl-deep-orange-900">mtrl-deep-orange-900</div>
+          <div class="padding mtrl-deep-orange-A100">mtrl-deep-orange-A100</div>
+          <div class="padding mtrl-deep-orange-A200">mtrl-deep-orange-A200</div>
+          <div class="padding mtrl-deep-orange-A400">mtrl-deep-orange-A400</div>
+          <div class="padding mtrl-deep-orange-A700">mtrl-deep-orange-A700</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-brown">mtrl-brown (500)</div>
+          <div class="padding mtrl-brown-50">mtrl-brown-50</div>
+          <div class="padding mtrl-brown-100">mtrl-brown-100</div>
+          <div class="padding mtrl-brown-200">mtrl-brown-200</div>
+          <div class="padding mtrl-brown-300">mtrl-brown-300</div>
+          <div class="padding mtrl-brown-400">mtrl-brown-400</div>
+          <div class="padding mtrl-brown-500">mtrl-brown-500</div>
+          <div class="padding mtrl-brown-600">mtrl-brown-600</div>
+          <div class="padding mtrl-brown-700">mtrl-brown-700</div>
+          <div class="padding mtrl-brown-800">mtrl-brown-800</div>
+          <div class="padding mtrl-brown-900">mtrl-brown-900</div>
+        </div>
+        <div class="col-1">
+          <div class="padding mtrl-grey">mtrl-grey (500)</div>
+          <div class="padding mtrl-grey-50">mtrl-grey-50</div>
+          <div class="padding mtrl-grey-100">mtrl-grey-100</div>
+          <div class="padding mtrl-grey-200">mtrl-grey-200</div>
+          <div class="padding mtrl-grey-300">mtrl-grey-300</div>
+          <div class="padding mtrl-grey-400">mtrl-grey-400</div>
+          <div class="padding mtrl-grey-500">mtrl-grey-500</div>
+          <div class="padding mtrl-grey-600">mtrl-grey-600</div>
+          <div class="padding mtrl-grey-700">mtrl-grey-700</div>
+          <div class="padding mtrl-grey-800">mtrl-grey-800</div>
+          <div class="padding mtrl-grey-900">mtrl-grey-900</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <div class="padding mtrl-blue-grey">mtrl-blue-grey (500)</div>
+          <div class="padding mtrl-blue-grey-50">mtrl-blue-grey-50</div>
+          <div class="padding mtrl-blue-grey-100">mtrl-blue-grey-100</div>
+          <div class="padding mtrl-blue-grey-200">mtrl-blue-grey-200</div>
+          <div class="padding mtrl-blue-grey-300">mtrl-blue-grey-300</div>
+          <div class="padding mtrl-blue-grey-400">mtrl-blue-grey-400</div>
+          <div class="padding mtrl-blue-grey-500">mtrl-blue-grey-500</div>
+          <div class="padding mtrl-blue-grey-600">mtrl-blue-grey-600</div>
+          <div class="padding mtrl-blue-grey-700">mtrl-blue-grey-700</div>
+          <div class="padding mtrl-blue-grey-800">mtrl-blue-grey-800</div>
+          <div class="padding mtrl-blue-grey-900">mtrl-blue-grey-900</div>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+
+        </div>        
+      </div>
+    </div>
+  </article>
+</main>
+
+<footer class="container">
+  <div class="row">
+    <div class="col-fluid grey font-s center">
+      &copy; Copyright 2017 <a href="https://github.com/Serrin" target="_blank">Ferenc Czigler</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
